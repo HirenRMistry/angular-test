@@ -3,6 +3,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { WeatherDataService } from '../../services/weatherdata.service'
 
 import { Weather } from '../../app.component';
+import { TableData } from '../../app.component'
 
 @Component({
   selector: 'app-selection',
@@ -12,6 +13,7 @@ import { Weather } from '../../app.component';
 export class SelectionComponent implements OnInit {
    @Output() onSelection: EventEmitter<Weather> = new EventEmitter<Weather>()
   weather: Weather = new Weather()
+  tableData: TableData = new TableData()
   city: String = ""
 
   constructor(private weatherData: WeatherDataService) { }
@@ -29,4 +31,9 @@ submit() {
       this.onSelection.emit(this.weather)
     })
   }
+
+
+
+
+
 }

@@ -1,2 +1,9 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+<h1> Weather App</h1>
 <app-display #display></app-display>
+
 <app-selection (onSelection)="display.update($event)"></app-selection>
+<br>
+<app-table #table></app-table>
