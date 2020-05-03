@@ -3,17 +3,17 @@ This is a weather app with interacts with the OpenWeather API and displays the r
 Currently hosted on: weather.hirenmistry.co.uk  
 NOTE: This was produced during my 2nd Year exam season.
 
-Main Points:
-Create a new angular project  
-Use the open weather API to retrieve weather information on at least 10 cities  
-Populate a table within the app with this data  
-Introduce configurable pagination (rows of 5, 10, 20)  
-Introduce sortable columns  
-Introduce a filter for searching by city name  
-Create a graph that displays the temperature for all cities.  
-Include the mean temperature of all cities on the graph  
-Implement a unit test to confirm the pagination works  
-Implement a unit test for the city filter  
+Main Points:  
+1. Create a new angular project  
+2. Use the open weather API to retrieve weather information on at least 10 cities  
+3. Populate a table within the app with this data  
+4. Introduce configurable pagination (rows of 5, 10, 20)  
+5. Introduce sortable columns  
+6. Introduce a filter for searching by city name  
+7. Create a graph that displays the temperature for all cities.  
+8. Include the mean temperature of all cities on the graph  
+9. Implement a unit test to confirm the pagination works  
+10. Implement a unit test for the city filter  
 
 I have also added a minor feature which allows the user to enter a city and temperature and conditions are displayed for that city. 
 
