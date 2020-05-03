@@ -4,8 +4,8 @@ Currently hosted on: weather.hirenmistry.co.uk
 NOTE: This was produced during my 2nd Year exam season.
 
 Main Points:
-Create a new angular project
-Use the open weather API to retrieve weather information on at least 10 cities
+Create a new angular project  
+Use the open weather API to retrieve weather information on at least 10 cities  
 Populate a table within the app with this data
 Introduce configurable pagination (rows of 5, 10, 20)
 Introduce sortable columns
