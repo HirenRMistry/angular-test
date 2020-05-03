@@ -1,4 +1,21 @@
-# Weather
+# Weather App
+This is a weather app with interacts with the OpenWeather API and displays the response in a table, along with a graph of the temperatures.
+Currently hosted on: weather.hirenmistry.co.uk
+NOTE: This was produced during my 2nd Year exam season.
+
+Main Points:
+Create a new angular project
+Use the open weather API to retrieve weather information on at least 10 cities
+Populate a table within the app with this data
+Introduce configurable pagination (rows of 5, 10, 20)
+Introduce sortable columns
+Introduce a filter for searching by city name
+Create a graph that displays the temperature for all cities.
+Include the mean temperature of all cities on the graph
+Implement a unit test to confirm the pagination works
+Implement a unit test for the city filter
+
+I have also added a minor feature which allows the user to enter a city and temperature and conditions are displayed for that city. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 

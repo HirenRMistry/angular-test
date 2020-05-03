@@ -8,7 +8,7 @@ import { Weather } from '../../app.component'
 })
 export class DisplayComponent implements OnInit {
 weather: Weather = {
-    city: "No City",
+    city: "Enter City Name Below",
     conditions: "-",
     temperature: 0,
     icon: ""
